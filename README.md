@@ -9,7 +9,7 @@
 * Write tests for the methods inside of `lib/math.rb`.
 * For every test you write, run `rspec` to run your tests.
 * For every method, write one example group (`it` block) with 3 different expectations. 
-  * The expectations should be very similar. Your expectations should test passing in particular inputs result in expected output.
+  * The expectations should be very similar. Your expectations should test that passing in particular inputs results in expected output.
   * The expectations should differ by passing in different parameters for each one.
 * You have 25 minutes.
 
