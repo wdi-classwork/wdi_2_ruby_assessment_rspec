@@ -7,5 +7,6 @@
 * Run `bundle`
 * Open `math_spec.rb`
 * Write tests for the methods inside of `lib/math.rb`
+* For every test you write, run `rspec` to run your tests
 * For every method, write 3 different expectations, passing in different parameters for each.
 * You have 25 minutes
