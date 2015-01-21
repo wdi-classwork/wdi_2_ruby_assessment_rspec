@@ -4,9 +4,26 @@
 
 ## Instructions
 * Fork and clone this repo.
-* Run `bundle`
-* Open `math_spec.rb`
-* Write tests for the methods inside of `lib/math.rb`
-* For every test you write, run `rspec` to run your tests
-* For every method, write 3 different expectations, passing in different parameters for each.
-* You have 25 minutes
+* Run `bundle`.
+* Open `math_spec.rb`.
+* Write tests for the methods inside of `lib/math.rb`.
+* For every test you write, run `rspec` to run your tests.
+* For every method, write one example group (`it` block) with 3 different expectations. 
+  * The expectations should be very similar. Your expectations should test passing in particular inputs result in expected output.
+  * The expectations should differ by passing in different parameters for each one.
+* You have 25 minutes.
+
+## Example
+
+Suppose we had the following method:
+
+```ruby
+def sum(*args)
+  args.reduce(:+)
+end
+```
+A successful test would check that:
+
+1. `sum(2,3)` returns `5`
+1. `sum(5,6)` returns `11`
+1. `sum(10,32)` returns `42`
