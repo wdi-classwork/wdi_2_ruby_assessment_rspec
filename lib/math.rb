@@ -10,6 +10,6 @@ def perimeter(length_of_side)
   4 * length_of_side
 end
 
-def cube_surface_area(edge)
-  6 * (edge**2)
+def cube_surface_area(length_of_edge)
+  6 * (length_of_edge**2)
 end
